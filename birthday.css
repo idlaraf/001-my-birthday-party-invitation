@@ -1,0 +1,19 @@
+div{
+    background-color: aqua;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-radius: 60px;
+    font-size: 20px
+    
+    text-align: center;
+    padding: 100px 50px 50px 50px;
+   
+
+}
+body{
+    background-image:url(party-background.jpg)
+
+
+}
+h4 {
+    text-decoration-color: red;
+}
