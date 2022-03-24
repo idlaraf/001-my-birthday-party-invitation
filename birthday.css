@@ -18,14 +18,25 @@ h4 {
     text-decoration-color: red;
 }
 
-header a  {
-    color: white;
+.headings {
+   border:  grey;
     font-family: Georgia, 'Times New Roman', Times, serif; 
     font-size: 40px;
 
  
 }
 
-header {
-    border: 5px;
+a {  
+    color: rgb(10, 66, 8);
+    
+}
+
+i {
+    color: red;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+b {
+    font: fantasy;
+    color: rgb(35, 189, 35);
 }
