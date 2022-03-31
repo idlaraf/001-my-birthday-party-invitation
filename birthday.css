@@ -1,11 +1,11 @@
 div{
     background-color: aqua;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    border-radius: 60px;
-    font-size: 20px
+    border-radius: 12vh;
+    font-size: 12vh
     
     text-align: center;
-    padding: 100px 50px 50px 50px;
+    padding: 30vh 15vh 20vh 20vh;
    
 
 }
@@ -21,7 +21,7 @@ h4 {
 .headings {
    border:  grey;
     font-family: Georgia, 'Times New Roman', Times, serif; 
-    font-size: 40px;
+    font-size: 9vh;
 
  
 }
@@ -39,4 +39,27 @@ i {
 b {
     font: fantasy;
     color: rgb(35, 189, 35);
+}
+
+.rules{
+    color: #ba0006;
+    font-size: large;
+  text-align: center;
+  /* infinite */
+  animation: blink 4s infinite;
+
+}
+@keyframes blink{
+    0%{
+        opacity: 1;
+        font-size: 5vh;
+    }
+    50%{
+        opacity: 0;
+        font-size: 10vh;
+    }
+    100%{
+        opacity: 1;
+        font-size: 5vh;
+    }
 }
